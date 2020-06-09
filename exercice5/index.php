@@ -1,17 +1,17 @@
 <?php
-    if (isset($_GET['firstname'])){
-        $messageFirstname =  $_GET['firstname'];
-    }else {
+    if (isset($_GET['firstname'])) {
+        $messageFirstname = $_GET['firstname'];
+    } else {
         $messageFirstname = 'il n\'y a pas de parametre d\'URL \'firstname\'';
     };
-    if (isset($_GET['lastname'])){
+    if (isset($_GET['lastname'])) {
         $messageLastname = $_GET['lastname'];
-    }else {
+    } else {
         $messageLastname = 'il n\'y a pas de parametre d\'URL \'lastname\'';
     };
-    if (isset($_GET['gender'])){
+    if (isset($_GET['gender'])) {
         $messageGender = $_GET['gender'];
-    }else {
+    } else {
         $messageGender = 'il n\'y a pas de parametre d\'URL \'gender\'';
     };
 ?>
@@ -54,9 +54,9 @@
         <input type="submit" value="envoyer">
     </form>
 
-    <p><?= 'civilité : ' . $messageGender ?> </p>
-    <p><?= 'Prenom : ' . $messageFirstname ?> </p>
-    <p><?= 'Nom : ' . $messageLastname ?> </p>
+    <p><?= 'civilité : ' . $messageGender; ?> </p>
+    <p><?= 'Prenom : ' . $messageFirstname; ?> </p>
+    <p><?= 'Nom : ' . $messageLastname; ?> </p>
 
 </body>
 
