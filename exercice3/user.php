@@ -17,11 +17,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>exo1</title>
+    <title>exo3 user</title>
 </head>
 
 <body>
-    <h1>Exercice 1</h1>
+    <h1>Exercice 3</h1>
 
     <p>Avec le formulaire de l'exercice 1, afficher dans la page user.php les données du formulaire transmises.</p>
     <p>exo1 (Créer un formulaire demandant le nom et le prénom. Ce formulaire doit rediriger vers la page user.php avec la
