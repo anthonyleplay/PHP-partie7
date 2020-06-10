@@ -26,15 +26,15 @@
     } else { ?>
         <form action="/exercice7/index.php" method=post enctype="multipart/form-data">
             <label for="gender">civilité:</label>
-            <select id="gender" name="gender" require>
+            <select id="gender" name="gender" required>
                 <option value="Homme">Mr</option>
                 <option value="Femme">Mme</option>
             </select><br>
             <label for="firstname">Prenom:</label><br>
-            <input type="text" id="firstname" name="firstname" value="Aude" require><br>
+            <input type="text" id="firstname" name="firstname" value="Aude" required><br>
             <label for="lastname">Nom:</label><br>
-            <input type="text" id="lastname" name="lastname" value="Vessel" require><br><br>
-            <input type="file" name="fileToUpload" id="fileToUpload" require><br><br>
+            <input type="text" id="lastname" name="lastname" value="Vessel" required><br><br>
+            <input type="file" name="fileToUpload" id="fileToUpload" required><br><br>
             <input type="submit" value="envoyer">
         </form>
     <?php }; ?>

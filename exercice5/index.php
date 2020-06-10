@@ -48,9 +48,9 @@
             <option value="Femme">Mme</option>
         </select><br>
         <label for="firstname">Prenom:</label><br>
-        <input type="text" id="firstname" name="firstname" value="Aude" require><br>
+        <input type="text" id="firstname" name="firstname" value="Aude" required><br>
         <label for="lastname">Nom:</label><br>
-        <input type="text" id="lastname" name="lastname" value="Vessel" require><br><br>
+        <input type="text" id="lastname" name="lastname" value="Vessel" required><br><br>
         <input type="submit" value="envoyer">
     </form>
 
