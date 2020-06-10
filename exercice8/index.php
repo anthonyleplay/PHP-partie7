@@ -17,7 +17,7 @@
 
     <?php
 
-    if (isset($_FILES["fileToUpload"]["type"])) { ?>
+    if (isset($_FILES["fileToUpload"])) { ?>
         <p><?= 'civilité : ' . $_POST["gender"] ?> </p>
         <p><?= 'Prenom : ' . $_POST["firstname"] ?> </p>
         <p><?= 'Nom : ' . $_POST["lastname"] ?> </p>
